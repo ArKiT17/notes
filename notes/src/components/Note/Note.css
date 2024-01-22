@@ -1,0 +1,74 @@
+.note {
+    position: relative;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.note:hover {
+    transform: scale(1.05);
+}
+
+.checked {
+    background-color: #e9ffe6 !important;
+}
+
+.note:nth-child(odd) {
+    background-color: #e6f7ff;
+}
+
+.note:nth-child(even) {
+    background-color: #ffe6e6;
+}
+
+.note-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    color: #333;
+}
+
+.note-text {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.note-time {
+    font-size: 14px;
+    color: #999;
+}
+
+.btn {
+    position: absolute;
+    top: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.delete-button {
+    right: 5px;
+    background-color: #ff5050;
+}
+
+.check-button {
+    right: 25px;
+    background-color: #5cff1b;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}
+
+.check-button:hover {
+    background-color: #55bd4f;
+}
